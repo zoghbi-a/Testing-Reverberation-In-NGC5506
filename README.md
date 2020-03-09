@@ -14,9 +14,9 @@ The analysis is organized into several python notebooks, which sometimes call ou
 
 A quick description of each notebooks is as follows:
 
-- [Data](data): This is the data extraction tools, and contains the code for downloading, reducing the data, and extracting the spectra from XMM, Suzaku and NuSTAR used in the data.
-- [Spec](spec): does the consistent spectral modeling. This is where the spectral results in the paper come from.
-- [Timing](timing): Contains the code for extracting and modeling the power spectra, covariance and lags.
+- [Data](data.md): This is the data extraction tools, and contains the code for downloading, reducing the data, and extracting the spectra from XMM, Suzaku and NuSTAR used in the data.
+- [Spec](spec.md): does the consistent spectral modeling. This is where the spectral results in the paper come from.
+- [Timing](timing.md): Contains the code for extracting and modeling the power spectra, covariance and lags.
 
 ### Data Products
 All the data products are available through the Open Science Framework at the [following link](https://osf.io/3unf2/files/). There are three files:
