@@ -9,7 +9,7 @@ These papes contain the data and codes associated with the article entitled: **[
 ### Description
 The analysis is organized into several python notebooks, which sometimes call outside functions either from my [toolset package `aztools`](https://zoghbi-a.github.io/aztools/) or the helper scripts: 
 - [`spec_helpers.py`](https://github.com/zoghbi-a/Testing-Reverberation-In-NGC5506/blob/master/spec_helpers.py): This contrain a collection of functions used in the spectral modeling. These are documented individually.
-- [`timing_helpers.py`](https://github.com/zoghbi-a/Testing-Reverberation-In-NGC5506/blob/master/timing_helpers.pyy): Contains the functions used in the timing analysis, and these are mostly used in the [Timing](timing) (see bellow) notebook, and they are also documented individually
+- [`timing_helpers.py`](https://github.com/zoghbi-a/Testing-Reverberation-In-NGC5506/blob/master/timing_helpers.py): Contains the functions used in the timing analysis, and these are mostly used in the [Timing](timing) (see bellow) notebook, and they are also documented individually
 - [`fit.tcl`](https://github.com/zoghbi-a/Testing-Reverberation-In-NGC5506/blob/master/fit.tcl): This contrains a collection of tcl functions called from xspec to do the modeling. They are mostly called from the spectral modeling notebooks (see below).
 
 A quick description of each notebooks is as follows:
